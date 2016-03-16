@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Viktor Farcic "viktor@farcic.com"
+MAINTAINER jeff beuermann "jeff.beuermann@td.com"
 
 ENV VERSION 1.0
 
