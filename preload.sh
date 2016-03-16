@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-docker pull vfarcic/books-ms-tests
+docker pull beuerj2/books-ms-tests
 
 cd /vagrant
 
