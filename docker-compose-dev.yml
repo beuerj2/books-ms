@@ -21,7 +21,7 @@ tests:
     - TEST_TYPE=all
 
 testsLocal:
-  image: vfarcic/books-ms-tests
+  image: beuerj2/books-ms-tests
   volumes:
     - ./client/components:/source/client/components
     - ./client/test:/source/client/test
@@ -55,7 +55,7 @@ feTests:
     - TEST_TYPE=watch-front
 
 feTestsLocal:
-  image: vfarcic/books-ms-tests
+  image: beuerj2/books-ms-tests
   stdin_open: true
   tty: true
   volumes:
