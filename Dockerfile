@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Viktor Farcic "viktor@farcic.com"
+MAINTAINER Jeff Beuermann "jeff.beuermann@td.com"
 
 RUN apt-get update && \
     apt-get install -y --force-yes --no-install-recommends openjdk-7-jdk && \
