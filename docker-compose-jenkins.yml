@@ -1,5 +1,5 @@
 app:
-  image: vfarcic/books-ms
+  image: beuerj2/books-ms
   ports:
     - 8080
   environment:
@@ -25,7 +25,7 @@ db:
     - SERVICE_NAME=books-ms-db
 
 integ:
-  image: vfarcic/books-ms-tests
+  image: beuerj2/books-ms-tests
   volumes:
     - ./src:/source/src
   environment:
